@@ -30,3 +30,47 @@ Tensors with several values set to zero can be considered *sparse*. This results
 #### Graph between accuracy and sparsity of Weight Pruning and Unit Pruning
 ![Graph](https://github.com/jinsel/Pruning-the-Neural-Networks/blob/master/image/index.png)
 
+### Getting Started
+If you want to do some research or work on Pruning the Neural Network then follow the under instructions.<br>
+#### Clone 
+1) Fork the Repository<br>
+2) Clone this repo to your local machine using https://github.com/jinsel/Pruning-the-Neural-Networks
+#### Installation
+#### Tensorflow 
+(Requires the latest pip)<br>
+$ pip install --upgrade pip <br>
+$ pip install tensorflow 
+
+(If you want to use GPU then)<br> 
+$ pip install tensorflow-gpu 
+
+##### For Numpy 
+$ pip install numpy
+
+#### If you are using the Google Colab then:
+**Enable the GPU with**: Runtime > Change runtime type > Hardware accelator and make sure GPU is selected.
+
+
+## Reference:
+### Research Paper and Blog
+1) [To prune, or not to prune: exploring the efficacy of pruning for model compression,](https://arxiv.org/pdf/1710.01878.pdf) Michael H. Zhu, Suyog Gupta, 2017 <br>
+
+2) [Learning to Prune Filters in Convolutional Neural Networks](https://arxiv.org/pdf/1801.07365.pdf), Qiangui Huang et. al, 2018<br>
+
+3) https://jacobgil.github.io/deeplearning/pruning-deep-learning  Pruning deep neural networks to make them fast and small<br>
+
+4)  [Optimize machine learning models with Tensorflow Model Optimization Toolkit](https://www.tensorflow.org/model_optimization)<br>
+
+5)  https://www.tensorflow.org/model_optimization/guide/pruning/train_sparse_models <br>
+
+6) https://towardsdatascience.com/pruning-deep-neural-network-56cae1ec5505 Pruning Deep Neural Networks
+
+### Videos
+1)  https://www.youtube.com/watch?v=CrDRr2fxbsg&t=656s Toward Efficient Deep Neural Network Deployment: Deep Compression and EIE, Song Han <br>
+
+2)  https://www.youtube.com/watch?v=vouEMwDNopQ Deep Compression, DSD Training and EIE<br>
+
+
+
+
+
